@@ -1,24 +1,16 @@
 package edu.osucascades.guevarra;
+
 import java.util.*;
 
-public class Zombie{
+public class Zombie {
 
     String name;
 
 
-
-
-    public Zombie(String name){
+    public Zombie(String name) {
         this.name = name;
 
     }
-
-    public void makeNoise(){
-     System.out.println("Generic Zombie Noise");
-    }
-
-
-
 
     public static void main(String[] args) {
         //String name  = "Jefree";
@@ -39,32 +31,14 @@ public class Zombie{
         zombies.add(whisperingZombie);
         whisperingZombie.makeNoise();
 
-        for(Zombie z:zombies){
+        for (Zombie z : zombies) {
             z.makeNoise();
         }
 
-//        ArrayList<Zombie> zombies = new ArrayList<Zombie>();
-//        Zombie groaningZombie = new GroaningZombie("GroanZombie");
-//        zombies.add(groaningZombie);
-//        groaningZombie.makeNoise();
-//
-//
-//        Zombie shoutingZombie = new ShoutingZombie("LoudZombie");
-//        shoutingZombie.makeNoise();
-//        zombies.add(shoutingZombie);
-//
-//        Zombie whisperingZombie = new WhisperingZombie("QuietZombie");
-//        whisperingZombie.makeNoise();
-//        zombies.add(whisperingZombie);
-//
-//        Zombie singingZombie = new SingingZombie("SongBirdZombie");
-//        singingZombie.makeNoise();
-//        zombies.add(singingZombie);
 
+    }
 
-
-
-
-
+    public void makeNoise() {
+        System.out.println("Generic Zombie Noise");
     }
 }
