@@ -16,26 +16,6 @@ public class Zombie{
     public void makeNoise(){
      System.out.println("Generic Zombie Noise");
     }
-//    public void groan() {
-//        System.out.println("grrroooooan. I'm in pain and you will be too if you don't run!" + name);
-//    }
-//
-//    public void shout(){
-//            System.out.println("WUUUUGH! You've got fair warning!" + name);
-//
-//    }
-//
-//    public void whisper(){
-//            System.out.println("shhhh. No noise here. Nothing to fear?!" + name);
-//    }
-//
-//    public void sing() {
-//        System.out.println("You may say I'm a dreamer, but I'm not the only one" + name);
-//    }
-//
-//    public void rap(){
-//        System.out.println("Reality is wrong. Dreams are for real" + name);
-//    }
 
 
 
@@ -62,6 +42,26 @@ public class Zombie{
         for(Zombie z:zombies){
             z.makeNoise();
         }
+
+//        ArrayList<Zombie> zombies = new ArrayList<Zombie>();
+//        Zombie groaningZombie = new GroaningZombie("GroanZombie");
+//        zombies.add(groaningZombie);
+//        groaningZombie.makeNoise();
+//
+//
+//        Zombie shoutingZombie = new ShoutingZombie("LoudZombie");
+//        shoutingZombie.makeNoise();
+//        zombies.add(shoutingZombie);
+//
+//        Zombie whisperingZombie = new WhisperingZombie("QuietZombie");
+//        whisperingZombie.makeNoise();
+//        zombies.add(whisperingZombie);
+//
+//        Zombie singingZombie = new SingingZombie("SongBirdZombie");
+//        singingZombie.makeNoise();
+//        zombies.add(singingZombie);
+
+
 
 
 
