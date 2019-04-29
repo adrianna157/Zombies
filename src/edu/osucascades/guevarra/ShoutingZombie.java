@@ -1,8 +1,8 @@
 package edu.osucascades.guevarra;
 
 public class ShoutingZombie extends Zombie {
-    ShoutingZombie(String name){
-        super (name);
+    ShoutingZombie(String name) {
+        super(name);
     }
     @Override
     public void makeNoise(){
